@@ -27,5 +27,5 @@ const objecto = {
     edad: 10
 };
 objecto.edad = 11;
-objecto.id = 9;
+/* objecto.id = 9 */
 console.log(objecto.id);

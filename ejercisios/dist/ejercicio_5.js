@@ -23,6 +23,10 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+// Construir el algoritmo que lea por teclado dos números,
+// si el primero es mayor al segundo informar su suma y
+// diferencia, en caso contrario, informar el producto y la
+// división del primero respecto al segundo.
 const readlineSync = __importStar(require("readline-sync"));
 const numero1 = Number(readlineSync.question('ingrese primer numero: '));
 const numero2 = Number(readlineSync.question('ingrese segundo numero: '));
